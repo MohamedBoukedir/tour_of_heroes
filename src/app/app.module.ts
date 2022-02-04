@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './componenets/heroes/heroes.component';
 import { HeroDetailComponent } from './componenets/hero-detail/hero-detail.component';
 import { MessagesComponent } from './componenets/messages/messages.component';
+import { DashboardComponent } from './componenets/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { MessagesComponent } from './componenets/messages/messages.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
+    DashboardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
