@@ -14,15 +14,14 @@ nav a {
 }
 nav {
   padding: 0;
-  margin: auto;
   max-width: 1000px;
-
   /* flexbox */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
   align-items: flex-start;
+  justify-content: space-around;
 }
 
 nav a:hover {

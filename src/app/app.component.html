@@ -6,15 +6,19 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<div style="margin-left: 20%; margin-right: 20%">
+  <div style="text-align: center; text-emphasis-color: red">
+    <h1>{{ title }}</h1>
+  </div>
 
-<h1>{{ title }}</h1>
-<!--<app-heroes></app-heroes>-->
-<nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
-</nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
+  <!--<app-heroes></app-heroes>-->
+  <nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/heroes">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
+</div>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
